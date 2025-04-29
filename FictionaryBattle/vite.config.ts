@@ -28,9 +28,9 @@ export default defineConfig({
       "@shared": path.resolve(__dirname, "shared"),
     },
   },
-  root: path.resolve(__dirname, "client"),   // ✅ tells Vite to start in client/
+  root: path.resolve(__dirname, "client"), // ✅ This is what points Vite to the client folder!
   build: {
-    outDir: path.resolve(__dirname, "dist"),  // ✅ output to plain dist/
+    outDir: path.resolve(__dirname, "dist"), // ✅ Output into dist/ directly
     emptyOutDir: true,
   },
 });
