@@ -28,9 +28,9 @@ export default defineConfig({
       "@shared": path.resolve(__dirname, "shared"),
     },
   },
-  root: "client", // ✅ use relative path for portability
+  root: "client", //
   build: {
-    outDir: path.resolve(__dirname, "public"), // ✅ now builds to /dist/public at runtime
+    outDir: path.resolve(__dirname, "../dist/public"),
     emptyOutDir: true,
   },
 });
