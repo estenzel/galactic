@@ -28,9 +28,9 @@ export default defineConfig({
       "@shared": path.resolve(__dirname, "shared"),
     },
   },
-  root: "client", //
+  root: "client", // still just "client"
   build: {
-    outDir: path.resolve(__dirname, "../dist/public"),
+    outDir: path.resolve(__dirname, "dist/public"), // <-- dumps to FictionaryBattle/dist/public
     emptyOutDir: true,
   },
 });
