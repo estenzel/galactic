@@ -30,7 +30,7 @@ export default defineConfig({
   },
   root: path.resolve(__dirname, "client"), // ✅ This is what points Vite to the client folder!
   build: {
-    outDir: path.resolve(__dirname, "dist"), // ✅ Output into dist/ directly
+    outDir: path.resolve(__dirname, "../dist/public"), // ✅ Output into dist/ directly
     emptyOutDir: true,
   },
 });
